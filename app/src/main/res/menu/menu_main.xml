@@ -10,12 +10,7 @@
     <item
         android:id="@+id/action_profiles"
         android:orderInCategory="100"
-        android:title="@string/action_profiles"
-        app:showAsAction="never" />
-    <item
-        android:id="@+id/action_sample"
-        android:orderInCategory="100"
-        android:title="@string/action_insert_sample"
+        android:title="Shopping list"
         app:showAsAction="never" />
 
     <item
@@ -23,6 +18,6 @@
         android:orderInCategory="99"
         android:icon="@drawable/ic_action_delete"
         android:title="@string/action_delete"
-        app:showAsAction="always"/>
+        app:showAsAction="ifRoom"/>
 
 </menu>
