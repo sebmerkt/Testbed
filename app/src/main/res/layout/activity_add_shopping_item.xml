@@ -9,7 +9,7 @@
 
     <ListView
         android:id="@+id/scrolling_list_view"
-        android:layout_width="344dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
